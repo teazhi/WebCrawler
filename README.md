@@ -13,7 +13,7 @@ This Python code is designed to crawl a website and gather information about its
 
 To use this code, you need to have Python installed on your system. You can install the necessary libraries by running the following command:
 
-```{python}
+```
 pip install requests bs4 colorama
 ```
 
@@ -23,7 +23,9 @@ pip install requests bs4 colorama
 
 2. Run the code: Open a terminal or command prompt and navigate to the directory containing the Python script. Then run the script with the URL as a command-line argument. For example:
 
-```python website_crawler.py https://example.com```
+```
+python website_crawler.py https://example.com
+```
 
 3. Results: The script will print the progress of the crawling process and provide a summary of the total number of internal and external links, and files found. It will also generate an `output.txt` file containing the list of internal URLs and files.
 
