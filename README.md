@@ -13,7 +13,7 @@ This Python code is designed to crawl a website and gather information about its
 
 To use this code, you need to have Python installed on your system. You can install the necessary libraries by running the following command:
 
-```python3
+```python
 pip install requests bs4 colorama
 ```
 
